@@ -1,5 +1,7 @@
 #!TITLE: 5+2 Architectural View Model
 
+[[overview.png]]
+
 * Introduction
 This is a work in progress to create an architectural view that
 includes all possible architectural views in the System and Software
