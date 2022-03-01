@@ -1,0 +1,76 @@
+#!TITLE: 5+2 Architectural View Model
+
+* Introduction
+This is a work in progress to create an architectural view that
+includes all possible architectural views in the System and Software
+Engineering (aka Implementation) domains.
+
+
+* Organization
+Open to discussion. Feel free to send comments, improvements, general
+feedback, always welcome! Next step is to use the wiki of project
+features of github. For now, just sent a pull-request of this file.
+
+
+* Overview
+This is a very rough idea about all these view. Refinement iterations
+are required to provide a better and clear idea of their purpose.
+
+** Realization Domain
+This domain is stakeholder-centric. Everything in this domain must be
+understood and agreed by all system stakeholders: the owner,
+investors, partners, public administration or any other interested
+part that is willing to realize the system
+
+*** Use Case View
+Includes the /dreams/, /desires/, use cases, expectations, future
+views and specifications from system stakeholders.
+
+*** Formal View
+Includes the definitions, requirements, constraints, limitations,
+legal aspects, certifications required, in a more or less formal way,
+upon which the system will be realized.
+
+*** Operational View
+Includes all the details about the system life cycle, including
+commissioning, deployment, basic procedures, maintenance procedures,
+user manuals, repair manuals, safety manuals, revisions required and
+decommissioning of the system.
+
+** Domain of the System
+This is where the System is conceived. Starting from the use cases,
+requirements and/or formal specification, the elements, parts or
+subsystems are identified as well as all the processes that the system
+must perform, what are the stakeholders involved in them and their
+respective restrictions, safety measures and expected performance.
+
+*** Element View
+For all identified subsystems, it includes their assigned
+responsibilities, decomposition in smaller elements, hierarchical
+relationship between parts and elements, overall distribution and
+location that ultimately will define the interfaces.
+
+*** Process View
+For all identified processes that the system must perform, it includes
+what subsystem or elements are involved, what's the assigned
+responsibility to them, what are the interfaces between them and how
+the communication and interaction is established between them other
+than the already defined interfaces (frequency, magnitudes,
+constraints).
+
+** Domain of the Implementation
+This is where the Software is conceived and designed. Starting from
+system requirements and/or formal specification, the main components
+and their structure are identified, responsibilities assigned and
+interfaces designed.
+
+*** Structural View
+For all identified software artifacts, structure and composition is
+established, hierarchical relationship between them, communication
+paths, interactions, distribution and performance.
+
+*** Behavioral View
+For all identified functionality that the software must implement, it
+includes what modules or packages are involved, what are the
+interfaces used and how the communication and interaction is
+established between them.
