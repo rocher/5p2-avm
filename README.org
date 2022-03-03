@@ -1,4 +1,4 @@
-#!TITLE: 5+2 Architectural View Model
+#+TITLE: 5+2 Architectural View Model
 
 [[overview.png]]
 
