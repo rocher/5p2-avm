@@ -7,7 +7,7 @@ This is a work in progress to create an architectural view that
 includes all possible architectural views in the System and Software
 Engineering (aka Implementation) domains. No matter the methodology
 used in these domains, the idea is to put altogether the diagrams
-coming from SysML, UML or /<your-preferred>/ML. No matter the
+coming from SysML, UML or <your-preferred>ML. No matter the
 development life cycle used (MBE, waterfall, V, spiral) all these
 diagrams are useful /per se/. The goal is to have the most detailed
 view from different perspectives, using different methodologies, that
